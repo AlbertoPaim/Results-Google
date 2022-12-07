@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+}
+.menu-geral{
+display: flex;
+border-bottom: 0.5px solid rgb(207, 206, 206);
+width: 100%;
+color: gray;
+
+}
+.space-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 20px;
+    align-items: center;
+}
+.result-area{
+    display: flex;
+}
+
+.search-result{
+    display: flex;
+    color: gray;
+}
+
+
+.logo img{
+    
+    margin: 30px;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar{
+    margin-left: 20px;
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    width: 700px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bar input {
+    
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    font-size: 15px;
+    width: 460px;
+}
+
+.bar span{
+    margin: 0 10px;
+}
+.menu-links {
+    display: flex;
+   
+}
+.menu-links ul {
+    display: flex;
+    align-items: center;
+}
+
+.menu-links ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.menu-links a{
+    font-size: 15px;
+    color: gray;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+.todas1{
+    border-bottom: 3px solid rgb(45, 124, 214);
+
+}
+.menu-links span{
+    margin:0 5px;
+}
+.profile{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-start;
+    
+    
+}
+.profile span{
+    margin: 10px; 
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    margin-left: 200px;
+    
+}
+.quantidade{
+margin-top: 15px;
+}
+.resultados{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.resultados p{
+    margin-bottom: 5px;
+}
+.resultados h3{
+    margin-bottom: 5px;
+}
+.resultados a{
+    
+    text-decoration: none;
+}
+.pro{
+    display: none;
+}
+
+@media (max-width:768px){
+    .bar input{
+        font-size: 30px;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .logo img{
+        width: 200px;
+        justify-content: center;
+        
+    }
+    .menu-geral{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .profile{
+        display: none;
+        
+    }
+    .container{
+        margin-left: 30px;
+    }
+    .resultados {
+       
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+        
+    
+    .pro span{
+        width: max-content;
+        
+    }
+    .pro{
+        display: flex;
+        align-items: center;
+    }
+}
+
